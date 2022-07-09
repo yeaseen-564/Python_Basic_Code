@@ -10,6 +10,6 @@ text = re.sub("\s+", " ", text)
 item_finder = re.findall('<a class="drz-footer-category-tag" href="(.*?)"', text)
 links = ["https:" + x for x in item_finder]
 for link in links:
-    print(link)
+    print("Category Link:", link)
 
 
