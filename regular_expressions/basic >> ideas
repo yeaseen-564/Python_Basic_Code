@@ -1,0 +1,47 @@
+💥 (.) [Dot] refers to only one character with space
+    🌐 Example:
+        text = "Hi, I am Yeaseen Ahmed"
+        re.search("..........", text)
+        output = [Hi, I am Y]
+
+💥 (.+) [Dot Plus] means (1 - infinity) character with space
+    🌐 Example:
+        text = "Hi, I am Yeaseen Ahmed"
+        re.search(".+", text)
+        output = [Hi, I am Yeaseen Ahmed]
+
+💥 (\w) means only one (text) character without space
+    🌐 Example:
+        text = "I love programming"
+        re.search("\w \w\w\w\w", text)
+        output = [I love]   👋🏻>> >> For space need to give space between (\w)👋🏻
+
+💥 (\w+) means (text) characters without space
+    🌐 Example:
+        text = "Python Programming language is the best language"
+        re.search("\w+ \w+", text)
+        output = [Python Programming]   👋🏻>> >> For space need to give space between (\w+)👋🏻
+
+💥 (\d) means only one digit
+    🌐 Example:
+        text = "My phone number is 0122"
+        re.search("\d\d", text)
+        output = [01]
+
+💥 (\d+) means only digits
+    🌐 Example:
+        text = "My phone number is 012223"
+        re.search("\d+", text)
+        output = [012223]
+
+💥 carat sign is = ^ [Starting in Regular Expression]
+💥 dollar sign is = $ [Closing in Regular Expression]
+
+
+
+
+
+
+
+
+
