@@ -1,0 +1,5 @@
+text = input("Please enter your comma separated values: ")
+li = text.split(",")
+tpl = tuple(li)
+print(f"List is: {li}")
+print(f"Tuple is: {tpl}")

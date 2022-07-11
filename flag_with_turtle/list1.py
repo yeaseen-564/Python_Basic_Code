@@ -6,8 +6,8 @@ print(">>> To know the index:")
 print("Index of 6 is", numbers.index(6))
 print("Index of 2 is", numbers.index(2))
 
-# Sorting the list:
-print(">>> Sorting the list:")
+# Sorting the li:
+print(">>> Sorting the li:")
 numbers.sort()
 print(numbers)
 
@@ -16,13 +16,13 @@ print(">>> Printing in reverse:")
 numbers.reverse()
 print(numbers)
 
-# adding any item in the list:
+# adding any item in the li:
 print(">>> Adding any item in the List:")
 numbers.append(77)
 print(numbers)
 
-# Removing any item from the list:
-print(">>> Removing any item from the list:")
+# Removing any item from the li:
+print(">>> Removing any item from the li:")
 numbers.remove(77)
 print(numbers)
 
@@ -36,8 +36,8 @@ numbers.pop(0)
 print(numbers)
 print("-=-=-=-")
 
-# Clearing all the items from the list:
-print(">>> Clearing all the items from the list:")
+# Clearing all the items from the li:
+print(">>> Clearing all the items from the li:")
 numbers.clear()
 print(numbers)
 

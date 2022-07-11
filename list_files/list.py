@@ -18,7 +18,7 @@
 #         max_n = number
 # print(max_n)
 
-# Two-dimensional list
+# Two-dimensional li
 
 matrix = [
     [1, 2, 3],

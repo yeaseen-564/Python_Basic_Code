@@ -4,7 +4,7 @@ Poland, Finland, Chad, Netherlands, Denmark, NewZealand, Canada, Iceland, Sweden
 print("text <type 'str'> = ", text)
 # countries = text.split(",")
 # print("")
-# print("countries <type 'list'> = ", countries)
+# print("countries <type 'li'> = ", countries)
 match = re.findall("(\w+lands*)", text)  # land/lands finder with regular expression
 print("")
 print(match)

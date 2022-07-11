@@ -19,7 +19,7 @@ all_book_name = re.findall('<article class="product_pod">\s*.*?\s*<a href=".+?">
 # print(all_book_name)
 # print(full_book_link)
 
-for book in all_book_name:  # printing elements line by line from the list:
+for book in all_book_name:  # printing elements line by line from the li:
     print("Book Name: ", book)
 print("")
 print("")
